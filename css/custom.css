@@ -57,9 +57,8 @@ body {
     background-color: #fafafa;
 }
 
-nav {
-    padding-left: 0px !important;
-    
+.bg-gray-custom2{
+    background-color: #EBEDF1;
 }
 
 .navigation {
@@ -72,7 +71,6 @@ nav {
 .nav-link {
     font-size: 1.1rem;
     font-weight: 500;
-    margin: 0rem 1.1rem;
 }
 
 .nav-link:hover{
