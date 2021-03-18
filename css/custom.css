@@ -1,84 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,500&display=swap');
-
-:root{
-    /* Font Size */
-    --h1: 1.953rem;
-    --h2: 1.563rem;
-    --h3: 1.25rem;
-    --h4: 1.2rem;
-    --text: 1rem;
-    /* Font Size */
-
-    /* Font Family and Weith */
-    --WorkSans: 'Work Sans', sans-serif;
-    --Light: 300;
-    --Regular: 400;
-    --Medium: 500;
-    --Semibold: 600;
-    /* Font Weith */
-
-    /* Colors */
-    --blue: #0055cf;
-    --white: #ffffff;
-    --black: #282828;
-    --gray: #626262;
-    --grayl: #9e9e9e;
-    --grayl2: #e2e2e2;
-    --grayl3: #f8f8f8;
-    --blue-l1: #dde7fb;
-    --blue-l2: #c5d4ef;
-    --blue-l3: #6da6ff;
-    /* Colors */
-    /* Borders */
-    --border-blue: 1px solid var(--blue);
-    --border-black: 1px solid var(--black);
-    --border-gray: 1px solid var(--gray);
-    --border-grayl: 1px solid var(--grayl);
-    --border-blue-l1: 1px solid var(--blue-l1);
-    --border-blue-l2: 1px solid var(--blue-l2);
-    --border-blue-l3: 1px solid var(--blue-l3);
-    --p-g: 1.2rem 1.2rem;
-}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 
 .bfix {
     border: 1px solid red;
 }
 
-
 body {
-    font-family: var(--WorkSans);
+    font-family: 'Work Sans', sans-serif;
+}
+/* Bar Gobierno de colombia */
+.gov-bar {
+    padding: .3rem;
 }
 
-.bg-blue-custom{
-    background-color: #E5EEFC;
+.gov-logo {
+    width: 7rem;
+}
+/* Bar Gobierno de colombia */
+
+/* Navbar custom styles */
+.dropdown-item:hover {
+    background-color: #134074;
+    color: #ffffff;
 }
 
-.bg-gray-custom{
+.dropdown-header{
+    font-size: 1rem;
+}
+/* Navbar custom styles */
+
+.bg-blue{
+    background-color: #007bff;
+}
+
+.bg-blue2 {
+    background-color: #e3f2fd;
+}
+
+
+.bg-gray{
     background-color: #fafafa;
+}
+
+.bg-gray2{
+    background-color: #EFEFEF;
 }
 
 .bg-gray-custom2{
     background-color: #EBEDF1;
-}
-
-.navigation {
-    height: 65px;
-    box-shadow: -1px 6px 16px -7px rgba(110,110,110,0.75);
-    -webkit-box-shadow: -1px 6px 16px -7px rgba(110,110,110,0.75);
-    -moz-box-shadow: -1px 6px 16px -7px rgba(110,110,110,0.75);
-}
-
-.nav-link {
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-.nav-link:hover{
-    color: #0D51CC !important;
-    border-bottom: 3px solid #0D51CC;
-}
-
-.main-box {
-    position: relative;
-    z-index: 100;
 }

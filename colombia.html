@@ -16,78 +16,87 @@
     <section class="general-box">
         <header class="header">
             <!-- Bar Gobierno de colombia -->
-            <section class="gov-bar bg-blue-custom">
+            <section class="gov-bar bg-blue">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="https://via.placeholder.com/97x26" alt="">
+                            <img class="img-fluid gov-logo" src="images/logogovco.svg" alt="">
                         </div>
                     </div>
                 </div>
             </section>
             <!-- Bar Gobierno de colombia -->
+
             <!-- Bar logos -->
             <section class="logos">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 py-4">
-                            <img src="images/logo_observatorio.jpg" alt="">
+                            <img class="img-fluid" src="images/logo_observatorio.jpg" alt="">
                         </div>
                         <div class="col-md-6 py-4 text-right">
-                            <img src="images/logo_dnp.png" alt="">
+                            <img class="img-fluid" src="images/logo_dnp.png" alt="">
                         </div>
                     </div>
                 </div>
             </section>
             <!-- Bar logos -->
+
             <!-- Navigation menu -->
-            <section class="navigation bg-blue-custom main-box">
+            <section class="navigation bg-blue2">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <nav class=" navbar navbar-expand-lg navbar-light bg-blue-custom">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-blue2">
+                                <!-- <a class="navbar-brand" href="#">Menú</a> -->
                                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    data-target="#collapsemenu" aria-controls="collapsemenu" aria-expanded="false"
+                                    aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="collapse navbar-collapse" id="collapsemenu">
                                     <ul class="navbar-nav mr-auto">
-                                        <li class="nav-item">
-                                            <a class="nav-link active ml-0" href="#">Inicio</a>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">Inicio</a>
                                         </li>
-                                        <li class="nav-item dropdown active">
+                                        <li class="nav-item active dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                                                 role="button" data-toggle="dropdown" aria-haspopup="true"
                                                 aria-expanded="false">
                                                 Colombia a un clic
                                             </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <div class="dropdown-menu bg-blue2 mt-2" aria-labelledby="navbarDropdown">
                                                 <a class="dropdown-item" href="#">Geovisores</a>
                                                 <a class="dropdown-item" href="#">Indicadores</a>
-                                                <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#">Something else here</a>
                                             </div>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">Encuesta nacional logística</a>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">Encuesta Nacional Logística</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown"
+                                        <li class="nav-item active dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                                                 role="button" data-toggle="dropdown" aria-haspopup="true"
                                                 aria-expanded="false">
                                                 DIES
                                             </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="#">Organigramas</a>
-                                                <a class="dropdown-item" href="#">Subdirecciones</a>
+                                            <div class="dropdown-menu bg-blue2 mt-2" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">Organigrama</a>
+                                                <a class="dropdown-item" href="#">Estudios</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                <h6 class="dropdown-header text-primary">Subdirecciones</h6>
+                                                <a class="dropdown-item" href="#">Logística</a>
+                                                <a class="dropdown-item" href="#">Transporte</a>
+                                                <a class="dropdown-item" href="#">Movilidad</a>
+                                                <a class="dropdown-item" href="#">Minas y Energía</a>
+                                                <div class="dropdown-divider"></div>
+                                                <h6 class="dropdown-header text-primary">Temas DIES</h6>
+                                                <a class="dropdown-item" href="#">Comunidad virtual</a>
+                                                <a class="dropdown-item" href="#">Imágenes Satelitales</a>
                                             </div>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="#">Observatorio</a>
+                                            <a class="nav-link active" href="#" tabindex="-1"
+                                                aria-disabled="true">Observatorio</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -101,10 +110,18 @@
         <div class="bg-gray-custom">
             <div class="container border border-top-0 bg-white pt-5">
                 <div class="row mb-5">
-                    <div class="col-md-12 col-lg-3"><div class="p-1 bg-dark text-center text-white my-2">Boton 1</div></div>
-                    <div class="col-md-12 col-lg-3"><div class="p-1 bg-dark text-center text-white my-2">Boton 1</div></div>
-                    <div class="col-md-12 col-lg-3"><div class="p-1 bg-dark text-center text-white my-2">Boton 1</div></div>
-                    <div class="col-md-12 col-lg-3"><div class="p-1 bg-dark text-center text-white my-2">Boton 1</div></div>
+                    <div class="col-md-12 col-lg-3">
+                        <div class="p-1 bg-dark text-center text-white my-2">Boton 1</div>
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <div class="p-1 bg-dark text-center text-white my-2">Boton 1</div>
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <div class="p-1 bg-dark text-center text-white my-2">Boton 1</div>
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <div class="p-1 bg-dark text-center text-white my-2">Boton 1</div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
