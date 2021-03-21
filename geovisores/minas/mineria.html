@@ -6,22 +6,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
     <title>Home</title>
 </head>
 
 <body>
     <section class="general-box">
         <header class="header">
-
             <!-- Bar Gobierno de colombia -->
             <section class="gov-bar bg-blue">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <img class="img-fluid gov-logo" src="images/logogovco.svg" alt="">
+                            <img class="img-fluid gov-logo" src="/images/logogovco.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -33,10 +32,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 py-4">
-                            <img class="img-fluid" src="images/logo_observatorio.jpg" alt="">
+                            <img class="img-fluid" src="/images/logo_observatorio.jpg" alt="">
                         </div>
                         <div class="col-md-6 py-4 text-right">
-                            <img class="img-fluid" src="images/logo_dnp.png" alt="">
+                            <img class="img-fluid" src="/images/logo_dnp.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -107,114 +106,89 @@
                 </div>
             </section>
             <!-- Navigation menu -->
-
         </header>
         <div class="bg-gray-custom">
-            <div class="container border border-top-0 bg-white pt-4">
+            <div class="container border border-top-0 bg-white pt-5">
+                <!-- Botones encabezado -->
+                <div class="row mb-5">
+                    <div class="col-md-12 col-lg-3">
+                        <a class="text-decoration-none" href="#">
+                            <div
+                                class="p-2 d-flex justify-content-around align-items-center border border-primary rounded my-2">
+                                <p class="h6 m-0 color-blue">Logística</p>
+                                <img src="/icons/logisticaIcon.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <a class="text-decoration-none" href="#">
+                            <div
+                                class="p-2 d-flex justify-content-around align-items-center border border-primary rounded my-2">
+                                <p class="h6 m-0 p-2 color-blue">Transporte</p>
+                                <img src="/icons/transporteIcon.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <a class="text-decoration-none" href="#">
+                            <div
+                                class="p-2 d-flex justify-content-around align-items-center border border-primary rounded my-2">
+                                <p class="h6 m-0 color-blue">Movilidad</p>
+                                <img src="/icons/movilidadIcon.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <a class="text-decoration-none" href="#">
+                            <div
+                                class="p-2 d-flex justify-content-around align-items-center border border-primary rounded my-2">
+                                <p class="h6 m-0 color-blue">Minas y Energía</p>
+                                <img src="/icons/minasIcon.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Botones encabezado -->
                 <div class="row">
                     <div class="col-md-12 mb-4">
-                        <h1 class="h2">Observatorio Nacional de Logística, Transporte, Minas y Energía</h1>
+                        <h2>Minas y Energía</h2>
                     </div>
-                    <div class="col-md-12">
-                        <h2 class="h3">¿Qué es el Observatorio ?</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <p>El Observatorio Nacional de Logística, Transporte, Minas y Energía es una plataforma web que
-                            tiene como objetivo consolidar, analizar y compartir información de los sectores transporte
-                            y minas y energía. <br><br>
-
-                            Con esto busca el ser un apoyo a la toma de decisiones y como herramienta de planeación de
-                            política pública, a través de indicadores y visores geográficos.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="http://via.placeholder.com/1000x500" alt="">
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-12">
-                        <h2 class="h3">Objetivos</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-md-4 text-center">
-                        <img src="http://via.placeholder.com/100x100" alt="">
-                        <p>Consolidar la información de los sectores de transporte y de minas y energía.</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img src="http://via.placeholder.com/100x100" alt="">
-                        <p>Consolidar la información de los sectores de transporte y de minas y energía.</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img src="http://via.placeholder.com/100x100" alt="">
-                        <p>Consolidar la información de los sectores de transporte y de minas y energía.</p>
+                    <div class="col-md-12 mb-4">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/colombia/minas/mineria.html">Mineria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/colombia/minas/energia.html">Energía</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/colombia/minas/hidrocarburos.html">Hidrocarburos</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="h3">¿Qué información encontrará?</h2>
+                        <h3 class="h4">Geovisor Minería</h3>
                         <hr>
                     </div>
                 </div>
-                <div class="media-box my-4 ">
-                    <div class="row">
-                        <div class="col-md-2 p-0 text-right">
-                            <img src="http://via.placeholder.com/150x180" alt="">
-                        </div>
-                        <div class="col-md-10 py-3 px-3 bg-gray2">
-                            <h3 class="h5">Transporte nacional</h3>
-                            <ul>
-                                <li>Seguimiento al avance de proyectos</li>
-                                <li>Concesiones viales, aeroportuarias, férreas y portuarias</li>
-                                <li>Red vial nacional y departamental</li>
-                                <li>Priorización de vías terciarias</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-box my-4 ">
-                    <div class="row">
-                        <div class="col-md-2 p-0 text-right">
-                            <img src="http://via.placeholder.com/150x180" alt="">
-                        </div>
-                        <div class="col-md-10 py-3 px-3 bg-gray2">
-                            <h3 class="h5">Transporte nacional</h3>
-                            <ul>
-                                <li>Seguimiento al avance de proyectos</li>
-                                <li>Concesiones viales, aeroportuarias, férreas y portuarias</li>
-                                <li>Red vial nacional y departamental</li>
-                                <li>Priorización de vías terciarias</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-box my-4 ">
-                    <div class="row">
-                        <div class="col-md-2 p-0 text-right">
-                            <img src="http://via.placeholder.com/150x180" alt="">
-                        </div>
-                        <div class="col-md-10 py-3 px-3 bg-gray2">
-                            <h3 class="h5">Transporte nacional</h3>
-                            <ul>
-                                <li>Seguimiento al avance de proyectos</li>
-                                <li>Concesiones viales, aeroportuarias, férreas y portuarias</li>
-                                <li>Red vial nacional y departamental</li>
-                                <li>Priorización de vías terciarias</li>
-                            </ul>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="geovisor-lg">
+                            <iframe height="1200" width="100%" src="https://onlapp.dnp.gov.co/visorHistoriaPuertos" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="py-3"></div>
             <footer class="bg-primary py-5">
                 <div class="py-5"></div>
             </footer>
         </div>
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
