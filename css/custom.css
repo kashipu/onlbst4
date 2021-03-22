@@ -27,6 +27,13 @@ body {
 .dropdown-header{
     font-size: 1rem;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    }
 /* Navbar custom styles */
 
 .bg-blue{
@@ -58,6 +65,10 @@ body {
     
 }
 
+.list-custom li {
+    padding: .2rem;
+    }
+
 .parallax {
     height: 550px;
     background: #0055CF;
@@ -82,7 +93,7 @@ ul.timeline {
  /* Timeline vertical line */
 ul.timeline:before {
     content: ' ';
-    background: #fff;
+    background: #e3f2fd;
     display: inline-block;
     position: absolute;
     left: 16px;
@@ -90,6 +101,7 @@ ul.timeline:before {
     height: 100%;
     z-index: 400;
     border-radius: 1rem;
+    z-index: 0;
 }
 
 li.timeline-item {
@@ -119,6 +131,7 @@ li.timeline-item::before {
     height: 14px;
     z-index: 400;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 0;
 }
 
 
