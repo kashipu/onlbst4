@@ -8,6 +8,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
+
 /* Bar Gobierno de colombia */
 .gov-bar {
     padding: .3rem;
@@ -16,6 +17,7 @@ body {
 .gov-logo {
     width: 7rem;
 }
+
 /* Bar Gobierno de colombia */
 
 /* Navbar custom styles */
@@ -24,7 +26,7 @@ body {
     color: #ffffff;
 }
 
-.dropdown-header{
+.dropdown-header {
     font-size: 1rem;
 }
 
@@ -33,10 +35,19 @@ body {
     top: 0;
     width: 100%;
     z-index: 200;
-    }
+}
+
+.stickytable {
+    position: fixed;
+    top: 65px;
+    width: 500px;
+    right: 20px;
+    z-index: 400;
+}
+
 /* Navbar custom styles */
 
-.bg-blue{
+.bg-blue {
     background-color: #007bff;
 }
 
@@ -49,29 +60,30 @@ body {
 }
 
 
-.bg-gray{
+.bg-gray {
     background-color: #fafafa;
 }
 
-.bg-gray2{
+.bg-gray2 {
     background-color: #EFEFEF;
 }
 
-.bg-gray-custom2{
-    background-color: #EBEDF1;
+.bg-green2 {
+    background-color: #B8C159;
 }
 
-.navigation {
-    
-}
 
 .list-custom li {
     padding: .2rem;
-    }
+}
 
 .parallax {
     height: 550px;
-    background: #0055CF;
+    background-color: #0055CF;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax p {
@@ -79,6 +91,10 @@ body {
     text-align: center;
     font-weight: 300;
     color: white;
+}
+
+.parallax-img1 {
+    background-image: url(/images/parallax.jpg);
 }
 
 /* timeline */
@@ -90,7 +106,7 @@ ul.timeline {
     padding-left: 1.5rem;
 }
 
- /* Timeline vertical line */
+/* Timeline vertical line */
 ul.timeline:before {
     content: ' ';
     background: #e3f2fd;
